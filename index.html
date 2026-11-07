@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🎬%3C/text%3E%3C/svg%3E">
+<title>INNOCENT | AI Video Creator</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+<header><div class="wrap"><a class="logo" href="#top">INNOCENT<i> AI STUDIO</i></a><button class="btn" id="mo" aria-haspopup="true">Menu</button></div></header>
+<nav id="menu" aria-label="Main"><button class="btn" id="mc">Close</button>
+<a href="#studio">Videos</a><a href="#contact">Work with me</a></nav>
+
+<main>
+<div class="hero"><div class="wrap">
+<span class="tag">AI video creator</span>
+<h1>I’m Innocent. AI is my camera.</h1>
+<p>I make cinematic films, ads, animation and Web3 promos for brands and projects. Every video is watchable here, with a link to the original post on X.</p>
+<div class="row"><a class="btn p" href="#studio">Watch my videos</a><a class="btn" href="https://x.com/" target="_blank" rel="noopener">Follow on X</a></div>
+</div></div>
+
+<section id="studio"><div class="wrap">
+<h2>The studio</h2>
+<p class="sub">Every video I’ve made with AI, sorted by what it’s for. Tap a tile to play it.</p>
+<div class="chips" id="chips" role="group" aria-label="Filter videos"></div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Work with me</h2>
+<div class="contact"><div>
+<p class="sub">AI videos for your project, brand or launch. Fill in the brief and send it straight to my DMs or inbox.</p>
+<div class="row"><a class="btn p" href="https://x.com/" target="_blank" rel="noopener">Message on X</a><a class="btn" href="mailto:you@example.com">Email me</a></div>
+<p class="note">Handle and email are placeholders. Set yours in the admin settings.</p></div>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 INNOCENT · AI video creator</div></footer>
+
+<div id="modal" role="dialog" aria-modal="true" aria-label="Video player"><div class="box">
+<video id="vid" controls playsinline preload="metadata"></video><p id="verr">This video couldn’t load. Use the button below to watch it on X.</p><div class="stage" id="stage"><span>Placeholder player: your uploaded video plays here</span></div><div class="bar"><i id="pg"></i></div>
+<div class="mb"><div><h3 id="mt"></h3><p id="md"></p></div><div class="row"><button class="btn" id="pp">Pause</button><a class="btn p" id="mx" href="#" target="_blank" rel="noopener">Watch on X ↗</a><button class="btn" id="mcl">Close</button></div></div>
+</div></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
